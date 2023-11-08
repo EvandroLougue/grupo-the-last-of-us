@@ -19,7 +19,7 @@ h4 {
 body {
     padding: 0px;
     margin: 0px;
-    width: 98vw;
+    width: 96vw;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
 }
 footer > p {
@@ -48,7 +48,7 @@ header > nav > a {
     padding: 10px 8px;
     font-weight: bold;
     transition-duration: 0.5s;
-    margin-left: 5px;
+    margin-left: 6px;
     font-size: 0.8em;
 }
 nav > a:hover {
@@ -145,7 +145,7 @@ img.perfil {
 
 }
 .fotos {
-    width: 100px;
+    width: 200px;
     height: 200px;
     position: relative;
     display: inline-block;  
