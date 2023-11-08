@@ -1,33 +1,149 @@
 @charset "UTF-8";
 
 :root {
-    --cor1: #5d7eeb;
-    --cor2: lightblue;
+    --cor1: #161817;
+    --cor2: #101010;
+    --cor3: #1B1B1B;
 }
 * {
     box-sizing: border-box;
     outline: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 1.08em;
+}
+h4 {
+    text-align: center;
 }
 
 body {
     padding: 0px;
     margin: 0px;
-    background: var(--cor1);
+    width: 98vw;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
 }
-.container {
-    margin: 100px auto;
-    max-width: 850px;
-    padding: 50px;
-    background-color: var(--cor2);
-    border: 1px solid black;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.411);
-    border-radius: 15px;
+footer > p {
+    text-align: center;
+    padding: 5px;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: var(--cor5);
+    color: white;
+    margin-left: -8px;
+    margin-bottom: -20px;
+    margin-right: -8px;
 }
 h1 {
     text-align: center;
+    font-size: 2em;
 }
 form input:focus {
     outline: 1px solid var(--cor1);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    padding-top: 30px;
+}
+
+header > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    margin-left: 60px;
+}
+nav > a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+nav {
+    margin-bottom: 10px;
+}
+main {
+    background-color: #1B1B1B;
+    min-width: 280px;
+    max-width: 86vw;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 30px 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.40);
+    border-radius: 10px 10px 10px 10px;
+}
+body > main > p {
+    padding: 20px;
+    background-color: black;
+}
+body > main > p {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+body > main > h2 {
+    padding-top: 20px;
+    padding-left: 80px;
+    font-size: 1.5em;
+}
+
+
+
+/*iframe {
+    border-style: solid;
+    border-width: 15px 25px;
+    border-color: #047030;
+    width: 94%;
+}
+*/
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -10px 20px -10px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 55%;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+table {
+    padding: 50px;
+    border-collapse: collapse;
+    margin: auto;
+}
+th {
+    padding: 30px;
+}
+td {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+td.vitorias {
+    color: yellow;
+    text-align: center;
+}
+
+img#tricolor {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+
+}
+img.perfil {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+
 }
