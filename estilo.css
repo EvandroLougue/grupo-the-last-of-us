@@ -113,9 +113,11 @@ div.video > iframe {
 }
 
 table {
+    width: 50vw;
     padding: 50px;
     border-collapse: collapse;
     margin: auto;
+    text-align: center;
 }
 th {
     padding: 30px;
