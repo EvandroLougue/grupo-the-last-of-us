@@ -37,9 +37,6 @@ h1 {
     text-align: center;
     font-size: 2em;
 }
-form input:focus {
-    outline: 1px solid var(--cor1);
-}
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     padding-top: 30px;
@@ -114,18 +111,18 @@ div.video > iframe {
 }
 
 table {
-    width: 20vw;
-    padding: 50px;
+    width: 10vw;
+    padding: 10px;
     border-collapse: collapse;
     margin: auto;
     text-align: center;
 }
 th {
-    padding: 30px;
+    padding: 20px;
 }
 td {
     border: 1px solid black;
-    padding: 10px 15px;
+    padding: 10px 10px;
     font-size: 0.8em;
 }
 td.vitorias {
