@@ -51,8 +51,8 @@ header > nav > a {
     padding: 10px 8px;
     font-weight: bold;
     transition-duration: 0.5s;
-    margin-left: 2px;
-    font-size: 1em;
+    margin-left: 0px;
+    font-size: 0.9em;
 }
 nav > a:hover {
     background-color: gray;
@@ -65,7 +65,7 @@ nav {
 }
 main {
     background-color: #1B1B1B;
-    min-width: 280px;
+    min-width: 400px;
     max-width: 86vw;
     margin-top: 10px;
     margin-left: auto;
@@ -126,6 +126,7 @@ th {
 td {
     border: 1px solid black;
     padding: 10px 15px;
+    font-size: 1em;
 }
 td.vitorias {
     color: yellow;
