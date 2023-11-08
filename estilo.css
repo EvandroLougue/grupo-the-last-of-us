@@ -157,3 +157,6 @@ img.perfil {
     position: relative;
     display: inline-block;  
 }
+video#filme {
+    width: 20vw;
+}
